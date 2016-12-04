@@ -1,0 +1,15 @@
+﻿<Window x:Class="ML_lab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ML_lab2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="510" Width="455" Background="CadetBlue">
+    <Grid>
+        <Canvas x:Name="image" HorizontalAlignment="Left" Height="420"  Width="420" Margin="10,10,0,0" VerticalAlignment="Top" Background="AntiqueWhite"/>
+        <TextBox x:Name="text" Height="20" HorizontalAlignment="Center" Margin="0, 0, 0, 10"  VerticalAlignment="Bottom" Text="AUC = " Background="AntiqueWhite" BorderBrush="BlanchedAlmond"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="22" Margin="15,15,0,0" TextWrapping="Wrap" Text="TPR" VerticalAlignment="Top" Background="AntiqueWhite" BorderBrush="AntiqueWhite"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="22" Margin="390,400,0,0" TextWrapping="Wrap" Text="FPR" VerticalAlignment="Top" Background="AntiqueWhite" BorderBrush="AntiqueWhite"/>
+    </Grid>
+</Window>
